@@ -1,0 +1,47 @@
+% 导言区
+\documentclass[10pt]{article}%设置normal size大小为10磅
+
+\usepackage{ctex}	
+
+\newcommand{\myfont}{\songti{\zihao{-4}{针不戳}}}%自定义命令设置字体
+
+% 正文区（文稿区）
+\begin{document}
+	% 字体族设置（罗马字体、无衬线字体、打字机字体）
+	\textrm{Roman Family}	\textsf{Sans serif Family}	\texttt{Typewritter Family}
+	
+	{\rmfamily Roman Family}	{\sffamily Sans serif Family}	{\ttfamily Typewritter Family}		%{}用于设定字体生效范围
+	
+	\sffamily who you are?
+	
+	Are you wiser than others?definitely no.
+	
+	% 字体系列设置（粗细、宽度）
+	\textmd{Medium Series}	\textbf{Boldface Series}
+	
+	% 字体形状设置（直立、斜体、伪斜体、小型大写）
+	\textup{Upright Shape}	\textit{Italic Shape}
+	\textsl{Slanted Shape}	\textsc{Small Cap Shape}
+	
+	% 中文字体
+	{\songti 宋体} \quad {\heiti 黑体}	\quad {\fangsong 仿宋} \quad
+	{\kaishu 楷书} 
+	
+	% 字体大小（与normal size相对的大小，可在文档类参数设置
+	{\tiny			Hello}\\
+	{\scriptsize	Hello}\\
+	{\footnotesize	Hello}\\
+	{\small			Hello}\\
+	{\normalsize	Hello}\\
+	{\large			Hello}\\
+	{\Large 		Hello}\\
+	{\LARGE 		Hello}\\
+	{\huge			Hello}\\
+	{\Huge			Hello}\\
+	
+	% 中文字号设置
+	\zihao{5} 你好！%设置为五号字
+	
+	\myfont				
+	
+\end{document}
