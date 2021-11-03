@@ -1,0 +1,26 @@
+\documentclass{ctexart}
+
+%\begin{tabular}[<垂直对齐方式>]{<列格式说明>}
+%	<表项>&<表项>&...&<表项>	\\
+%	......
+%\end{tabular}
+%用\\表示换行
+%用&表示不同的列
+%l为本列左对齐
+%c为本列居中对齐
+%r为本列右对齐
+%p{<宽度>}可以指定本列宽度，自动换行
+
+\begin{document}
+	\begin{tabular}{l || c | c | c | p{1.5cm}}	
+		\hline	%产生表格横线
+		姓名 & 语文 & 数学 & 外语 & 备注 \\
+		\hline \hline
+		张三 & 87	& 100 & 93 & 优秀 \\
+		\hline
+		李四 & 75 & 64 & 52 & 补考另行通知 \\
+		\hline
+		王二 & 80 & 82 & 78 & \\
+		\hline
+	\end{tabular}
+\end{document}
