@@ -1,0 +1,24 @@
+\documentclass{ctexart}
+
+%biblatex/biber 新的TEX参考文献排版引擎
+%样式文件(参考文献样式文件--bbx文件，引用样式文件--cbx文件)使用LATEX编写
+%支持根据本地化排版，如：
+%	biber -l zh_pinyin texfile,用于指定按拼音排序
+%	biber -l zh_stroke texfile,用于指定按笔画排序
+
+\usepackage[style=numeric,backend=biber]{biblatex}	%引入biblatex宏包
+\addbibresource{test.bib}	%添加参考文献数据库，不能省略后缀名.bib
+
+\begin{document}
+	% 一次管理，多次应用
+	无格式化引用\cite{biblatex}
+	
+	带方括号引用\parencite{mittelbach2004}
+	
+	上标引用\supercite{徐伟20177}
+	
+	\nocite{*}	%排版所有未引用参考文献
+	
+	\printbibliography[title = 参考文献]	%输出参考文献列表，title参数修改参考文献标题
+	
+\end{document}

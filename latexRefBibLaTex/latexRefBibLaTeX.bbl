@@ -1,0 +1,120 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{mittelbach2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9355edd511e3f6fdd880ee98722a53fb}{%
+           family={Mittelbach},
+           familyi={M\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0743efb276e9219ee664a9b3dbd60619}{%
+           family={Goossens},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{588d1d6a8974db190596907e433f57be}
+      \strng{fullhash}{588d1d6a8974db190596907e433f57be}
+      \strng{bibnamehash}{588d1d6a8974db190596907e433f57be}
+      \strng{authorbibnamehash}{588d1d6a8974db190596907e433f57be}
+      \strng{authornamehash}{588d1d6a8974db190596907e433f57be}
+      \strng{authorfullhash}{588d1d6a8974db190596907e433f57be}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Tools and Techniques for Computer Typesetting}
+      \field{title}{The {{\LaTeX}} Companion}
+      \field{year}{2004}
+    \endentry
+    \entry{徐伟20177}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4ea370d1612fc2d3fafa980c94755961}{%
+           family={徐伟},
+           familyi={徐\bibinitperiod}}}%
+        {{hash=34d9fc08dc1bd5f1d3af225e51c58d19}{%
+           family={陈柏},
+           familyi={陈\bibinitperiod}}}%
+        {{hash=51d5b8e002a4fb39b15574ebd2af5a5e}{%
+           family={李彬彬},
+           familyi={李\bibinitperiod}}}%
+        {{hash=df676511839d2086120d9fde5d0b20f9}{%
+           family={华达人},
+           familyi={华\bibinitperiod}}}%
+        {{hash=7392686c4a2921c269d2704518b0595e}{%
+           family={王尧尧},
+           familyi={王\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2ec509bd170ad3e365c1e4cec008094}
+      \strng{fullhash}{add360be4fe4e092fb665466cad67c3c}
+      \strng{bibnamehash}{f2ec509bd170ad3e365c1e4cec008094}
+      \strng{authorbibnamehash}{f2ec509bd170ad3e365c1e4cec008094}
+      \strng{authornamehash}{f2ec509bd170ad3e365c1e4cec008094}
+      \strng{authorfullhash}{add360be4fe4e092fb665466cad67c3c}
+      \field{sortinit}{徐}
+      \field{sortinithash}{afc73b28c8ea369c863da75d0cadbb4a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{机电工程}
+      \field{number}{10}
+      \field{title}{7自由度冗余绳驱动机械臂运动分析及仿真}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{pages}{6}
+      \range{pages}{1}
+    \endentry
+    \entry{欧锶苡2020手机游戏的营销策略分析——以《明日方舟》为例}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a0a9f908aca30018ab25979b458de346}{%
+           family={欧锶苡},
+           familyi={欧\bibinitperiod},
+           given={许必芳},
+           giveni={许\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0a9f908aca30018ab25979b458de346}
+      \strng{fullhash}{a0a9f908aca30018ab25979b458de346}
+      \strng{bibnamehash}{a0a9f908aca30018ab25979b458de346}
+      \strng{authorbibnamehash}{a0a9f908aca30018ab25979b458de346}
+      \strng{authornamehash}{a0a9f908aca30018ab25979b458de346}
+      \strng{authorfullhash}{a0a9f908aca30018ab25979b458de346}
+      \field{sortinit}{欧}
+      \field{sortinithash}{2d260fc6a2a8fc2c153a9579da8887da}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{老字号品牌营销}
+      \field{number}{12}
+      \field{title}{手机游戏的营销策略分析——以《明日方舟》为例}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
